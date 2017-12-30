@@ -1,0 +1,196 @@
+/*Añadiendo estilos vista splash*/
+.loader {
+  width: 100%;
+  height: 100%;
+  background: radial-gradient(circle, #c50189, #421663);
+  position: fixed;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  z-index: 10000;
+}
+/*añadiendo estilos primera vista*/
+.loginview1 {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
+
+.gif-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(66, 22, 99, 0.25);
+  z-index: -1;
+}
+
+.traffic {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -99;
+}
+
+.white-logo {
+  max-width: 15vh;
+  margin-top: 1em;
+  z-index: 1;
+}
+
+.pink-logo {
+  max-width: 50vh;
+  text-align: center;
+  z-index: 1;
+}
+
+.btn-large {
+  background-color: #ff00be;
+  border: none;
+  border-radius: 0.5em;
+  color: white;
+  padding: 1.3em;
+  margin: 1em;
+}
+
+.btn-large:hover {
+  background-color: #c50189;
+}
+/**/
+.back-icon{
+  font-size: 3.5rem;
+  cursor:pointer;
+}
+
+.back-button{
+  margin-left: 0;
+  margin-top: 2%;
+}
+
+.text-singup{
+  text-align: center;
+  font-size: 4rem;
+  padding-top: 1%;
+}
+
+.subtitle{
+  text-align: center;
+  font-size: 2rem;
+}
+
+.phone-input{
+  padding-left: 2%;
+  padding-right: 0;
+}
+
+.input-countries{
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.verification-text{
+  font-size: 1.8rem;
+  padding-top:2%;
+  text-align: center;
+  margin-top: 5%;
+}
+.btn-block{
+  margin-top: 10%;
+  background-color: #FF00BF;
+  color:#fff;
+}
+.btn.disabled, .btn[disabled], fieldset[disabled] .btn {
+  background-color: gray;
+  color:#fff;
+}
+.btn:hover {
+  color: #fff;
+  text-decoration: none;
+}
+.verification{
+  text-align: center;
+  font-size: 3rem;
+}
+/*falta arreglar clases :()*/
+.text-join{
+  text-align: center;
+  font-size: 2rem;
+}
+.back-button2{
+  padding-left: 0;
+  padding-top: 3%;
+}
+.button2{
+  padding-left: 2%;
+  padding-top: 1%;
+}
+.back-icon2{
+  font-size: 3.5rem;
+  cursor:pointer;
+}
+.code-input{
+  text-align: center;
+  font-size: 2rem;
+}
+.random-code {
+  padding-left: 10px;
+  letter-spacing: 42px;
+  border: none;
+  outline: none;
+  background-image: linear-gradient(to left, black 70%, rgba(255, 255, 255, 0) 0%);
+  background-position: bottom;
+  background-size: 50px 1px;
+  background-repeat: repeat-x;
+  background-position-x: 35px;
+  width: 150px;
+}
+.entercode{
+  font-size: 1.8rem;
+  text-align: center;
+  padding-top: 4%;
+}
+.resend{
+  background-color:  #FF00BF;
+  color:#fff;
+  margin-top: 5%;
+}
+.next2,.next3,.next1{
+  position: fixed;
+  bottom: -4px;
+  left: -7px;
+  margin-left: 2%;
+  margin-bottom: 1%;
+  padding: 5vh;
+  }
+.back-button3{
+  padding-left: 0;
+  padding-top: 3%;
+  }
+.first-name,.last-name,.mail{
+  padding-top: 2%;
+  padding-bottom: 1%;
+}
+.checkbox{
+  padding-left: 5%;
+}
+.view5 {
+  background: radial-gradient(circle, #c50189, #421663);
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
+
+.logoview5 {
+  margin-top: 10em;
+  margin-left: 6em;
+}
+
+.checkboxv5 {
+  max-width: 25vh;
+  margin-left: 6.3em;
+}
