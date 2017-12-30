@@ -135,6 +135,7 @@
   text-align: center;
   font-size: 2rem;
 }
+/*Añadiendo estilos a la opcion de codigos al azar*/
 .random-code {
   padding-left: 10px;
   letter-spacing: 42px;
@@ -157,6 +158,7 @@
   color:#fff;
   margin-top: 5%;
 }
+/*añadiendo estilos a los botones next*/
 .next2,.next3,.next1{
   position: fixed;
   bottom: -4px;
@@ -176,6 +178,7 @@
 .checkbox{
   padding-left: 5%;
 }
+/*añadiendo estilo a la vista final*/
 .view5 {
   background: radial-gradient(circle, #c50189, #421663);
   position: fixed;
