@@ -59,7 +59,7 @@
 .btn-large:hover {
   background-color: #c50189;
 }
-/**/
+/*Añadiendo estilos a el icono de retroceso*/
 .back-icon{
   font-size: 3.5rem;
   cursor:pointer;
@@ -85,7 +85,7 @@
   padding-left: 2%;
   padding-right: 0;
 }
-
+/*Añadiendo estilos a el input de seleccion de paises*/
 .input-countries{
   padding-left: 0;
   padding-right: 0;
@@ -114,7 +114,7 @@
   text-align: center;
   font-size: 3rem;
 }
-/*falta arreglar clases :()*/
+/*Añadiendo estilos a el texto de las vistas*/
 .text-join{
   text-align: center;
   font-size: 2rem;
